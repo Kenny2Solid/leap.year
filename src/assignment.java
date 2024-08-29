@@ -23,10 +23,6 @@ public class assignment {
     }
 
     private static boolean div400Check(int year) {
-        if (year % 400 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return year % 400 == 0;
     }
 }
